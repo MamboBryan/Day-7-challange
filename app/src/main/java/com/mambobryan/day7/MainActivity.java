@@ -20,9 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    //Sets the image visibility
     public void setImageVisibility(View view) {
 
+        //checks whether the image is invisible or not
         if (rapper.getVisibility() == View.INVISIBLE){
             rapper.setVisibility(View.VISIBLE);
         } else {
